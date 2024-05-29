@@ -1,0 +1,145 @@
+@font-face {
+	font-family: spec; 
+	src: url('../../fonts/sr.ttf'); 
+}
+@font-face {
+	font-family: spec1; 
+	src: url('../../fonts/sr1.otf'); 
+}
+
+header{
+    height: 200px;
+}
+
+header > div:first-child{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-family: spec;
+    font-size: 23px;
+}
+header > div:first-child > div:last-child{
+    width: 23%;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.connect-images{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.connect-images > img{
+    width: 30px;
+    cursor: pointer;
+}
+
+header > nav:last-child{
+    font-size: 18px;
+    font-family: spec1; 
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header > nav:last-child > a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+@media screen and (max-width: 1286px){
+    header > div:first-child > div:last-child{
+        width: 30%;
+    }
+    .connect-images{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1013px){
+    header > div:first-child > div:last-child{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 868px){
+    header > div:first-child > div:last-child{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 769px){
+    header > div:first-child{
+        font-size: 20px;
+    }
+    header > div:first-child > div:last-child{
+        width: 37%;
+    }
+    .connect-images{
+        width: 22%;
+    }
+    .connect-images > img{
+        width: 25px;
+    }
+}
+@media screen and (max-width: 690px){
+    header{
+        height: 160px;
+    }
+    header > div:first-child{
+        font-size: 18px;
+        flex-wrap: wrap;
+    }
+    header > div:first-child > div:last-child{
+        width: 42%;
+    }
+}
+@media screen and (max-width: 567px){
+    header > div:first-child{
+        font-size: 21px;
+    }
+    header > div:first-child > div:last-child{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 497px){
+    header > div:first-child > div:last-child{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 418px){
+    header > div:first-child > div:last-child{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 390px){
+    header{
+        height: 130px;
+    }
+    header > nav:last-child{
+        height: 15%;
+    }
+    header > div:first-child{
+        font-size: 17px;
+        flex-wrap: wrap;
+    }
+    header > nav:last-child{
+        height: 50%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 331px){
+    header > div:first-child > div:last-child{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 320px){
+    header > div:first-child{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    header > nav:last-child{
+        font-size: 13px;
+    }
+}

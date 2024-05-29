@@ -1,0 +1,117 @@
+.gallery > section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery > section > img{
+    width: 16%;
+    height: 210px;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    cursor: pointer;
+}
+
+.slider-gallery{
+    width: 100%;
+    height: 100vh;
+    background: rgba(157, 130, 130, 0.4);
+}
+.slider-gallery > img{
+    width: 55%;
+    height: 75%;
+}
+.close-slider{
+    font-size: 40px;
+    cursor: pointer;
+    align-self: start;
+    font-family: sans-serif;
+}
+
+/*Media for gallery*/
+@media screen and (max-width: 1074px){
+    .gallery > section > img{
+        height: 190px;
+    }
+}
+@media screen and (max-width: 1010px){
+    .gallery > section > img{
+        height: 170px;
+    }
+}
+@media screen and (max-width: 716px){
+    .gallery > section{
+        justify-content: space-around;
+    }
+    .gallery > section > img{
+        width: 18%;
+    }
+}
+@media screen and (max-width: 635px){
+    .gallery > section > img{
+        height: 135px;
+    }
+}
+@media screen and (max-width: 585px){
+    .gallery > section > img{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 465px){
+    .gallery > section{
+        justify-content: center;
+    }
+    .gallery > section > img{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 440px){
+    .gallery > section > img{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 355px){
+    .gallery > section > img{
+        width: 40%;
+    }
+}
+
+/*media for an open pic*/
+@media screen and (max-width: 963px){
+    .slider-gallery > img{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 798px){
+    .slider-gallery > img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 632px){
+    .slider-gallery > img{
+        height: 65%;
+    }
+}
+@media screen and (max-width: 503px){
+    .slider-gallery > img{
+        height: 55%;
+    }
+}
+@media screen and (max-width: 417px){
+    .slider-gallery > img{
+        height: 50%;
+    }
+}
+@media screen and (max-width: 363px){
+    .slider-gallery > img{
+        height: 45%;
+    }
+}
+@media screen and (max-width: 341px){
+    .slider-gallery > img{
+        height: 40%;
+    }
+}
+@media screen and (max-width: 335px){
+    .slider-gallery > img{
+        width: 85%;
+    }
+}

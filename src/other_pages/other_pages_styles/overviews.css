@@ -1,0 +1,245 @@
+.room > main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.room > main > section{
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+}
+.slider{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+}
+#shown{
+	width: 100%;
+	height: 350px;	
+	background-size: cover;
+    background-position: center;
+	cursor: pointer;
+}
+.slider > div:last-child{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1%;
+}
+.change{
+	width: 150px;
+	height: 80px;
+	cursor: pointer;
+	object-fit: cover;
+}
+
+.reserve{
+	text-align: center;
+	font-family: spec2; 
+	font-size: 25px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.reserve > div{
+	display: flex;
+	justify-content: center;
+}
+.reserve > div > img{
+	width: 5%;
+}
+.book{
+	width: 30%;
+	height: 40px;
+	background-color: #19C05B;
+	border: none;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+.description{
+	margin-top: 3%;
+	font-size: 19px;
+	font-family: spec;
+}
+
+h1{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	margin-top: 3%;
+}
+
+ul{
+	font-size: 30px;
+}
+
+
+/*slider*/
+@media screen and (max-width: 1073px){
+	.slider{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 683px){
+	.slider{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 604px){
+	.slider{
+		width: 70%;
+	}
+}
+
+/*shown pic*/
+@media screen and (max-width: 858px){
+	#shown{
+		height: 300px;
+	}
+}
+@media screen and (max-width: 683px){
+	#shown{
+		height: 250px;
+	}
+}
+@media screen and (max-width: 546px){
+	#shown{
+		height: 200px;
+	}
+}
+@media screen and (max-width: 474px){
+	#shown{
+		height: 150px;
+	}
+}
+@media screen and (max-width: 373px){
+	#shown{
+		height: 120px;
+	}
+}
+
+/*choice*/
+@media screen and (max-width: 1464px){
+	.change{
+		width: 130px;
+		height: 70px;
+	}
+}
+@media screen and (max-width: 1332px){
+	.change{
+		width: 120px;
+		height: 80px;
+	}
+}
+@media screen and (max-width: 1183px){
+	.change{
+		width: 110px;
+		height: 80px;
+	}
+}
+@media screen and (max-width: 849px){
+	.change{
+		width: 95px;
+		height: 75px;
+	}
+}
+@media screen and (max-width: 734px){
+	.change{
+		width: 85px;
+		height: 70px;
+	}
+}
+@media screen and (max-width: 604px){
+	.change{
+		width: 75px;
+		height: 65px;
+	}
+}
+@media screen and (max-width: 546px){
+	.change{
+		width: 65px;
+		height: 55px;
+	}
+}
+@media screen and (max-width: 484px){
+	.slider > div{
+		flex-wrap: wrap;
+		justify-content: space-around;
+		height: 113px;
+	}
+}
+@media screen and (max-width: 383px){
+	.slider > div{
+		justify-content: space-between;
+	}
+	.change{
+		width: 85px;
+	}
+}
+@media screen and (max-width: 338px){
+	.change{
+		width: 75px;
+		height: 45;
+	}
+}
+
+/*reservation-part*/
+@media screen and (max-width: 979px){
+	.reserve{
+		text-align: center;
+	}
+	.reserve > div > img{
+		width: 10%;
+	}
+	.book{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 661px){
+	.book{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 530px){
+	.reserve{
+		font-size: 20px;
+	}
+	.book{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 486px){
+	.reserve{
+		height: 220px;
+	}
+}
+@media screen and (max-width: 413px){
+	.reserve{
+		font-size: 15px;
+	}
+	.book{
+		height: 30px;
+		width: 80%;
+	}
+}
+
+/*description and prices*/
+@media screen and (max-width: 501px){
+	.description{
+		margin-top: 10%;
+	}
+	h1{
+		font-size: 25px;
+	}
+	ul{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 413px){
+	.description{
+		font-size: 15px;
+	}
+}

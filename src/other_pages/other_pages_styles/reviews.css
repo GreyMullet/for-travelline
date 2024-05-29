@@ -1,0 +1,26 @@
+.reviews-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1300px;
+}
+.frame{
+    width: 50%;
+    height: 100%;
+}
+
+@media screen and (max-width:666px){
+    .frame{
+        width: 60%;
+    }
+}
+@media screen and (max-width:450px){
+    .frame{
+        width: 70%;
+    }
+}
+@media screen and (max-width:400px){
+    .frame{
+        width: 95%;
+    }
+}

@@ -1,0 +1,157 @@
+@font-face {
+	font-family: spec; 
+	src: url(../../fonts/sr.ttf); 
+}
+@font-face {
+	font-family: spec1; 
+	src: url(../../fonts/sr1.otf); 
+}
+@font-face {
+	font-family: spec2; 
+	src: url(../../fonts/sr2.otf); 
+}
+
+body{
+	margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.rooms{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.rooms > div{
+	margin-top: 3%;
+	width: 31%;
+	height: 600px;
+	border: 1px solid grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+.rooms > div > div:first-child{
+	width: 100%;
+	height: 45%;
+}
+.rooms > div > div:first-child > img{
+	width: 100%;
+	height: 100%;
+}
+.rooms > div > div:nth-child(2){
+	height: 25%;
+	font-family: spec2;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.rooms > div > div:nth-child(2) > div{
+	display: flex;
+	justify-content: center;
+}
+.rooms > div > div:nth-child(2) > div > img{
+	width: 6%;
+}
+.rooms > div > div:last-child{
+	width: 100%;
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rooms > div > div:last-child > button{
+	width: 35%;
+	height: 50%;
+	background: none;
+	border: 1px solid #939393;
+	font-family: spec1;
+	cursor: pointer;
+}
+.rooms > div > div:last-child > a{
+	font-family: spec;
+	font-weight: bold;
+	color: #000;
+}
+.rooms > div > div:nth-child(2){
+	display: flex;
+	justify-content: space-around;
+}
+.rooms > div > div:nth-child(2) > u{
+	font-size: 25px;
+}
+
+@media screen and (max-width: 1005px){
+	.rooms > div{
+		width: 35%;
+	}
+}
+@media screen and (max-width: 980px){
+	.rooms > div{
+		width: 43%;
+	}
+}
+@media screen and (max-width: 685px){
+	.rooms > div{
+		width: 46%;
+		height: 500px;
+	}
+	.rooms > div > div:nth-child(2) > div > img{
+		width: 8%;
+	}
+}
+@media screen and (max-width: 579px){
+	.rooms > div{
+		width: 46%;
+		height: 500px;
+	}
+	.rooms > div > div:last-child > button{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 510px){
+	.rooms > div{
+		height: 420px;
+		width: 49%;
+	}
+	.rooms > div > div:nth-child(2){
+		display: flex;
+		justify-content: space-between;
+		height: 35%;
+	}
+}
+@media screen and (max-width: 466px){
+	.rooms > div{
+		height: 390px;
+	}
+}
+@media screen and (max-width: 407px){
+	.rooms > div{
+		height: 380px;
+	}
+	.rooms > div > div:nth-child(2) > u{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 382px){
+	.rooms > div{
+		height: 330px;
+	}
+	.rooms > div > div:nth-child(2){
+		font-size: 14px;
+	}
+	.rooms > div > div:nth-child(2) > u{
+		font-size: 17px;
+	}
+	.rooms > div > div:last-child > a{
+		font-size: 13px;
+	}
+	.rooms > div > div:last-child > button{
+		width: 80%;
+	}
+}

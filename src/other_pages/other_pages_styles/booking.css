@@ -1,0 +1,56 @@
+@font-face {
+	font-family: spec; 
+	src: url(../../fonts/sr.ttf); 
+}
+@font-face {
+	font-family: spec1; 
+	src: url(../../fonts/sr1.otf); 
+}
+@font-face {
+	font-family: spec2; 
+	src: url(../../fonts/sr2.otf); 
+}
+
+.booking{
+    display: flex;
+    justify-content: center;
+    font-family: spec; 
+}
+.booking > main{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.booking > main > form{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.booking > main > form > select{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 175, 175);
+    outline: none;
+}
+.booking > main > form > input{
+    height: 40px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 175, 175);
+}
+.booking > main > form > button{
+    height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: rgb(243, 243, 243);
+    font-family: spec; 
+    font-size: 17px;
+}
+
+.reserved{
+    background-color: lightgray;
+}

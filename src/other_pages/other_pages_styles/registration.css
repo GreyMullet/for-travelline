@@ -1,0 +1,57 @@
+@font-face {
+	font-family: spec; 
+	src: url('../../fonts/sr.ttf'); 
+}
+@font-face {
+	font-family: spec1; 
+	src: url('../../fonts/sr1.otf'); 
+}
+
+html, body{
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.registration{
+    display: flex;
+    flex-direction: column;
+}
+
+#registration-form{
+    font-family: spec1; 
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#registration-form > input{
+    outline: none;
+    font-size: 17px;
+    font-family: spec; 
+    height: 40px;
+    width: 90%;
+}
+#registration-form > button{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: spec; 
+}
+
+@media screen and (max-width: 724px){
+    #registration-form > h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 407px){
+    #registration-form > button{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

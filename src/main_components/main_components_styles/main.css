@@ -1,0 +1,198 @@
+@font-face {
+	font-family: spec; 
+	src: url('../../fonts/sr.ttf'); 
+}
+@font-face {
+	font-family: spec1; 
+	src: url('../../fonts/sr1.otf'); 
+}
+
+.describing-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Picture of the guest house, description & map*/
+.describing-content > img:first-child{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.describing-content > section:nth-child(2){
+    font-family: spec;
+    margin-top: 5%;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+.describing-content > section:nth-child(2) > span:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+.describing-content > section:nth-child(2) > div:nth-child(2){
+    font-size: 25px;
+    margin-top: 2%;
+    background-color: rgb(252, 236, 216);
+    height: 35%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.map{
+    width: 100%;
+}
+.map > iframe{
+	border: none;
+	width: 100%;
+}
+
+/*Slider*/
+.describing-content > section:nth-child(3){
+    font-family: spec;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.describing-content > section:nth-child(3) > div:last-child > img:first-child{
+    margin-top: 2%;
+    width: 1200px;
+    height: 750px;
+    border-radius: 30px;
+}
+.describing-content > section:nth-child(3) > div:last-child > div:last-child{
+    display: flex;
+    justify-content: center;
+}
+.describing-content > section:nth-child(3) > div:last-child > div:last-child > button{
+    width: 15%;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    font-family: spec;
+    font-size: 18px;
+}
+.prev{
+    border-right: none;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.next{
+    border: 1px solid gray;
+}
+
+/*Describing part*/
+@media screen and (max-width: 1059px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 813px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        font-size: 20px;
+        height: 40%;
+    }
+}
+@media screen and (max-width: 587px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        font-size: 16px;
+        height: 35%;
+    }
+}
+@media screen and (max-width: 429px){
+    .describing-content > section:nth-child(2){
+        margin-top: 7%;
+    }
+    .describing-content > section:nth-child(2) > span:first-child{
+        font-size: 20px;
+    }
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 390px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        height: 41%;
+    }
+}
+@media screen and (max-width: 347px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 307px){
+    .describing-content > section:nth-child(2) > div:nth-child(2){
+        font-size: 12px;
+    }
+}
+
+/*slider*/
+@media screen and (max-width: 1224px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 900px;
+        height: 600px;
+    }
+}
+@media screen and (max-width: 1059px){
+    .describing-content > section:nth-child(3){
+        margin-top: 15%;
+    }
+}
+@media screen and (max-width: 927px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 700px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 719px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 600px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 622px){
+    .describing-content > section:nth-child(3){
+        margin-top: 10%;
+    }
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 500px;
+        height: 400px;
+    }
+    .describing-content > section:nth-child(3) > div:last-child > div:last-child > button{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 522px){
+    .describing-content > section:nth-child(3){
+        margin-top: 1%;
+    }
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 400px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 421px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 340px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 357px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 319px){
+    .describing-content > section:nth-child(3) > div:last-child > img:first-child{
+        width: 250px;
+        height: 200px;
+    }
+}
