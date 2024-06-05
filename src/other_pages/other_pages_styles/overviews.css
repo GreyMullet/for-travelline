@@ -52,13 +52,19 @@
 }
 .book{
 	width: 30%;
-	height: 40px;
 	background-color: #19C05B;
 	border: none;
 	border-radius: 5px;
 	color: #FFF;
 	font-weight: bold;
 	cursor: pointer;
+
+	font-size: 14px;
+	padding: 13px;
+	box-sizing: border-box;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
 }
 .description{
 	margin-top: 3%;

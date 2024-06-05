@@ -22,6 +22,7 @@ import { Budjets } from './other_pages/rooms/budjet_category/BudjetRooms';
 import { ThreePlacedOverviewBudj } from './other_pages/rooms/budjet_category/rooms_overviews/ThreePlacedOverview';
 import { Gallery } from './other_pages/gallery/gallery';
 import { Reviews } from './other_pages/Reviews';
+import {Booking} from "./other_pages/Booking";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,6 +55,8 @@ root.render(
         <Route path='/other_pages/rooms/standart_category/rooms_overviews/ThreePlacedOverview2' element={<ThreePlacedOverviewStand2 />} />
         <Route path='/other_pages/rooms/standart_category/rooms_overviews/TwoPlacedOverview' element={<TwoPlacedOverviewStand />} />
         <Route path='/other_pages/rooms/budjet_category/rooms_overviews/ThreePlacedOverview' element={<ThreePlacedOverviewBudj />} />
+
+        <Route path='/other_pages/Booking' element={<Booking />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

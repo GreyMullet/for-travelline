@@ -117,7 +117,7 @@ export const TwoPlacedOverview1=()=>{
                             <img src={Man} draggable='false' alt="man" />
                         </div>
                         <b>18 кв.м</b>
-                        <button className='book'>Забронировать</button>
+                        <a href='/other_pages/Booking?room-type=170640' className='book'>Забронировать</a>
                     </div>
                 </section>
                 <span className='description'>

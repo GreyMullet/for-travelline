@@ -118,7 +118,7 @@ export const ThreePlacedOverview1=()=>{
                             <img src={Man} draggable='false' alt="man" />
                         </div>
                         <b>18 кв.м</b>
-                        <button className='book'>Забронировать</button>
+                        <a href='/other_pages/Booking' className='book'>Забронировать</a>
                     </div>
                 </section>
                 <span className='description'>
