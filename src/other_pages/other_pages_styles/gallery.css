@@ -19,6 +19,11 @@
     width: 55%;
     height: 75%;
 }
+
+.slider-gallery + #block-search {
+    z-index: -1;
+}
+
 .close-slider{
     font-size: 40px;
     cursor: pointer;
